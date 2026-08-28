@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="relative min-h-screen bg-[#FFF9E6] pb-24">
+    <div>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
