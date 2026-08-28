@@ -8,3 +8,17 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.blinking-dash {
+  display: inline-block;
+  width: 24px;
+  height: 8px;
+  margin-left: 12px;
+  background-color: #8ed3dc;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
