@@ -163,7 +163,7 @@ const About = () => {
             <span className="blinking-dash"></span>
           </h2>
 
-          <div className="mt-6 rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63]">
+          <div className="mt-6 rounded-2xl border-2 border-[#102A63] bg-[#FFF0A8] p-6 shadow-[5px_5px_0_#102A63]">
             <h3 className="text-xl font-bold text-[#102A63]">
               University of North Texas
             </h3>

@@ -5,8 +5,23 @@ import ADHDImage from "../assets/adhd.png";
 import AITravelImage from "../assets/ai-travel.jpg";
 import UnityPluginsImage from "../assets/unity_plugins.jpg";
 import IndoorNavImage from "../assets/indoor-nav.jpg";
+import ProfileProjectImage from "../assets/portfolio-2026-image.jpg";
 
 const projects = [
+  {
+    title: "Portfolio Website 2026",
+    image: ProfileProjectImage,
+    github: "https://github.com/KimVVo/portfolio-2026",
+    role: "Independent Project (Developer)",
+    date: "August 2026 - Present",
+    description: [
+      "Built a responsive personal portfolio using React and Tailwind CSS to showcase projects, technical skills, education, certifications, and work experience.",
+      "Implemented React Router and reusable components for multi-page navigation and maintainable frontend architecture.",
+      "Designed a responsive, user-centered interface with custom styling, interactive project cards, GitHub integration, and mobile-friendly layouts.",
+    ],
+    technologies: ["JavaScript ", "CSS", "HTML", "React", "Tailwind CSS"],
+    accent: "teal",
+  },
   {
     title: "ADHD Study Planner",
     image: ADHDImage,
@@ -19,7 +34,7 @@ const projects = [
       "Integrated an AI-powered chatbot to help users organize their schedules.",
     ],
     technologies: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
-    accent: "teal",
+    accent: "pink",
   },
 
   {
@@ -40,7 +55,7 @@ const projects = [
       "React",
       "Tailwind CSS",
     ],
-    accent: "pink",
+    accent: "yellow",
   },
 
   {
@@ -54,7 +69,7 @@ const projects = [
       "Implemented tools for color contrast checking, text enhancement, colorblind simulation, blue-light filtering, and other accessibility features.",
     ],
     technologies: ["C/C++", "Unity Editor"],
-    accent: "yellow",
+    accent: "teal",
   },
 
   {
@@ -70,7 +85,7 @@ const projects = [
       "Implemented interactive map features including zooming, searching, and dynamic map displays.",
     ],
     technologies: ["JavaScript", "JOSM", "QGIS", "HTML", "CSS", "MySQL"],
-    accent: "teal",
+    accent: "pink",
   },
 ];
 
