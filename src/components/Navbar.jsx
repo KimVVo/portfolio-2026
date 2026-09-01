@@ -4,8 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 
 const navItems = [
   { name: "Home", href: "/", icon: House, color: "bg-[#B7A4E5]" },
-  { name: "Projects", href: "/projects", icon: Folder, color: "bg-[#F28BB5]" },
+
   { name: "About", href: "/about", icon: Smile, color: "bg-[#CDECCF]" },
+  { name: "Projects", href: "/projects", icon: Folder, color: "bg-[#F28BB5]" },
   {
     name: "Experience",
     href: "/experience",

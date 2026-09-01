@@ -11,6 +11,10 @@ import {
 import profileImage from "../assets/profile.png";
 import resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
+import UNTLogo from "../assets/unt_logo.png";
+import GgLogo from "../assets/google_logo.webp";
+import AWSLogo from "../assets/aws_logo.png";
+import GitHubSnake from "../assets/github-contribution-grid-snake.svg";
 
 const About = () => {
   const [showResume, setShowResume] = useState(false);
@@ -70,7 +74,7 @@ const About = () => {
               {/* Social Icons Container */}
               <div className="flex w-fit gap-2 rounded-md border-2 border-[#102A63] bg-[#F28BB5] p-2 shadow-[2px_2px_0_#102A63]">
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/KimVVo"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded border border-[#102A63] bg-white p-1.5 transition hover:-translate-y-0.5"
@@ -79,36 +83,40 @@ const About = () => {
                 </a>
 
                 <a
-                  href="https://linkedin.com/"
+                  href="https://linkedin.com/in/kimvo11"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded border border-[#102A63] bg-white p-1.5 transition hover:-translate-y-0.5"
                 >
                   <FaLinkedin size={17} />
                 </a>
-
-                <a
-                  href="mailto:your-email@example.com"
-                  className="rounded border border-[#102A63] bg-white p-1.5 transition hover:-translate-y-0.5"
-                >
-                  <FaEnvelope size={17} />
-                </a>
               </div>
             </div>
             {/* Description */}
             <p className="text-sm leading-6">
               My name is <strong>Kim Vo</strong> and I'm a{" "}
-              <strong>front-end software developer</strong> passionate about
-              creating modern, user-centered web applications.
+              <strong> software developer and Computer Science graduate</strong>{" "}
+              from the University of North Texas in May 2026 with a{" "}
+              <strong>3.9 GPA</strong>.
+            </p>
+
+            <p className="mt-3 text-sm leading-6">
+              Through academic projects and my experience as{" "}
+              <strong> a Research Assistant at UNT</strong>, I gained hands-on
+              experience building software and solving real-world problems. My
+              technical skills include{" "}
+              <strong>Java, Python, JavaScript, React, SQL, and AWS</strong>.
             </p>
             <p className="mt-3 text-sm leading-6">
-              I enjoy turning ideas into clean, responsive interfaces and
-              building products that are both functional and easy to use.
+              I’m a fast learner who enjoys continuously learning and
+              challenging myself with new technologies. In May 2026, I earned my
+              <strong> AWS Certified Solutions Architect – Associate </strong>
+              certification, building on my AWS knowledge and cloud skills. I’m
+              also building my own AI-powered web application to develop my
+              software engineering and AI skills further.
             </p>
             <p className="mt-3 text-sm leading-6">
-              My current interests include{" "}
-              <strong>React, JavaScript, Java, SQL, AWS</strong>, and full-stack
-              development.
+              My motto is simple: <strong>Never stop learning.</strong>
             </p>
             {/* Resume Modal Trigger Button */}
             <button
@@ -129,56 +137,327 @@ const About = () => {
           <div className="relative flex h-8 w-5 justify-center rounded-full border-2 border-[#102A63] bg-white p-1 shadow-[2px_2px_0_#102A63]">
             <span className="h-1.5 w-1 animate-bounce rounded-full bg-[#F28BB5]" />
           </div>
-          <div className="relative h-48 w-0.5 overflow-hidden rounded-full bg-[#F8A7B9]/40">
+          <div className="relative h-24 w-0.5 overflow-hidden rounded-full bg-[#F8A7B9]/40">
             <div className="absolute top-0 h-1/2 w-full animate-pulse bg-[#102A63]" />
           </div>
         </div>
       </section>
 
       {/* ============================= */}
-      {/* FIRST STEPS */}
+      {/* EDUCATION */}
       {/* ============================= */}
 
-      <section id="first-steps" className="px-6 py-12 md:px-10">
-        <div className="mx-auto grid max-w-4xl items-center gap-12 md:grid-cols-2">
-          {/* Text */}
-          <div>
-            <h2 className="text-3xl font-bold md:text-4xl">
-              <span className="text-[#F28BB5]">~</span> First Steps{" "}
-              <span className="blinking-dash"></span>
-            </h2>
+      <section id="education" className="px-6 py-12 md:px-10">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            <span className="text-[#F28BB5]">~</span> Education{" "}
+            <span className="blinking-dash"></span>
+          </h2>
 
-            <p className="mt-6 text-sm leading-7">
-              I first discovered programming while studying computer science at
-              the University of North Texas. What started as curiosity gradually
-              became a passion for building software and solving problems.
+          <div className="mt-6 rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63]">
+            <h3 className="text-xl font-bold text-[#102A63]">
+              University of North Texas
+            </h3>
+
+            <p className="mt-2 text-sm font-semibold">
+              Bachelor of Science in Computer Science
             </p>
 
-            <p className="mt-5 text-sm leading-7">
-              Through university projects and independent learning, I developed
-              an interest in creating applications that combine technology with
-              thoughtful user experiences.
+            <p className="mt-1 text-sm">
+              Denton, Texas · August 2023 – May 2026
             </p>
 
-            <p className="mt-5 text-sm leading-7">
-              Today, I'm continuing to grow as a software developer, focusing on
-              front-end development while expanding my knowledge of backend
-              systems, cloud technologies, and modern software engineering
-              practices.
-            </p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              <span className="rounded-lg border-2 border-[#102A63] bg-white px-3 py-1 text-sm font-bold">
+                GPA: 3.90
+              </span>
 
-            <Link
-              to="/projects"
-              className="mt-6 inline-block rounded-lg border-2 border-[#102A63] bg-[#8ED3DC] px-4 py-2 text-sm font-bold text-[#102A63] shadow-[2px_2px_0_#102A63] transition hover:bg-[#72cad6]"
-            >
-              View My Projects
-            </Link>
+              <span className="rounded-lg border-2 border-[#102A63] bg-[#F28BB5] px-3 py-1 text-sm font-bold">
+                Summa Cum Laude
+              </span>
+            </div>
           </div>
+        </div>
+      </section>
+      {/* ============================= */}
+      {/* CERTIFICATIONS */}
+      {/* ============================= */}
 
-          {/* Illustration */}
-          <div className="flex justify-center">
-            <div className="flex h-64 w-64 items-center justify-center rounded-3xl border-2 border-[#102A63] bg-[#8ED3DC] text-7xl shadow-[5px_5px_0_#102A63]">
-              📖
+      <section id="certifications" className="scroll-mt-24 px-6 py-20 md:px-10">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            <span className="text-[#F28BB5]">~</span> Certifications{" "}
+            <span className="blinking-dash"></span>
+          </h2>
+
+          <div className="mt-8 space-y-6">
+            {/* AWS Solutions Architect */}
+            <div className="flex items-center gap-5 rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-5 shadow-[4px_4px_0_#102A63]">
+              <div className="flex-shrink-0">
+                <img
+                  src={AWSLogo}
+                  alt="Amazon Web Services logo"
+                  className="h-16 w-16 object-contain sm:h-20 sm:w-20"
+                />
+              </div>
+
+              <div>
+                <h3 className="text-lg font-bold text-[#102A63] sm:text-xl">
+                  AWS Certified Solutions Architect – Associate
+                </h3>
+
+                <p className="mt-1 text-sm font-semibold">
+                  Amazon Web Services (AWS)
+                </p>
+
+                <p className="mt-1 text-sm text-gray-700">
+                  Issued May 2026 · Expires May 2029
+                </p>
+
+                <a
+                  href="https://www.credly.com/badges/27c1ecf1-6984-4be0-9216-f3f59952cb8a"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-sm font-bold text-[#102A63] underline transition hover:text-[#F28BB5]"
+                >
+                  Show Credential →
+                </a>
+              </div>
+            </div>
+
+            {/* AWS Cloud Practitioner */}
+            <div className="flex items-center gap-5 rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-5 shadow-[4px_4px_0_#102A63]">
+              <div className="flex-shrink-0">
+                <img
+                  src={AWSLogo}
+                  alt="Amazon Web Services logo"
+                  className="h-16 w-16 object-contain sm:h-20 sm:w-20"
+                />
+              </div>
+
+              <div>
+                <h3 className="text-lg font-bold text-[#102A63] sm:text-xl">
+                  AWS Certified Cloud Practitioner
+                </h3>
+
+                <p className="mt-1 text-sm font-semibold">
+                  Amazon Web Services (AWS)
+                </p>
+
+                <p className="mt-1 text-sm text-gray-700">
+                  Issued Feb 2026 · Expires Feb 2029
+                </p>
+
+                <a
+                  href="https://www.credly.com/badges/fca3947c-9c08-4c86-816f-a52d167043c5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-sm font-bold text-[#102A63] underline transition hover:text-[#8ED3DC]"
+                >
+                  Show Credential →
+                </a>
+              </div>
+            </div>
+
+            {/* UNT Security Certificate */}
+            <div className="flex items-center gap-5 rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-5 shadow-[4px_4px_0_#102A63]">
+              <div className="flex-shrink-0">
+                <img
+                  src={UNTLogo}
+                  alt="University of North Texas logo"
+                  className="h-16 w-16 object-contain sm:h-20 sm:w-20"
+                />
+              </div>
+
+              <div>
+                <h3 className="text-lg font-bold text-[#102A63] sm:text-xl">
+                  Security Certificate
+                </h3>
+
+                <p className="mt-1 text-sm font-semibold">
+                  University of North Texas
+                </p>
+
+                <p className="mt-1 text-sm text-gray-700">Completed May 2025</p>
+              </div>
+            </div>
+
+            {/* Google Data Analytics */}
+            <div className="flex items-center gap-5 rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-5 shadow-[4px_4px_0_#102A63]">
+              <div className="flex-shrink-0">
+                <img
+                  src={GgLogo}
+                  alt="Google logo"
+                  className="h-16 w-16 object-contain sm:h-20 sm:w-20"
+                />
+              </div>
+
+              <div>
+                <h3 className="text-lg font-bold text-[#102A63] sm:text-xl">
+                  Google Data Analytics Professional Certificate
+                </h3>
+
+                <p className="mt-1 text-sm font-semibold">Google</p>
+
+                <p className="mt-1 text-sm text-gray-700">
+                  Completed October 2023
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================= */}
+      {/* TECHNICAL SKILLS */}
+      {/* ============================= */}
+
+      <section id="technical-skills" className="px-6 py-12 md:px-10">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            <span className="text-[#F28BB5]">~</span> Technical Skills{" "}
+            <span className="blinking-dash"></span>
+          </h2>
+
+          <div className="mt-8 grid gap-8 md:grid-cols-2">
+            {/* Languages */}
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-black">
+                Languages
+              </h3>
+
+              <div className="flex flex-wrap gap-2">
+                {["Java", "C", "C++", "Python", "JavaScript", "SQL", "R"].map(
+                  (skill) => (
+                    <span
+                      key={skill}
+                      className="rounded-full border-2 border-[#102A63] bg-[#8ED3DC] px-3 py-2 text-sm font-semibold text-[#102A63] shadow-[2px_2px_0_#102A63]"
+                    >
+                      {skill}
+                    </span>
+                  ),
+                )}
+              </div>
+            </div>
+
+            {/* Software Engineering */}
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-black">
+                Software Engineering
+              </h3>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "Object-Oriented Programming",
+                  "REST API Design & Development",
+                  "Data Structures & Algorithms",
+                  "Software Design",
+                  "Testing & Debugging",
+                  "Agile Collaboration",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="rounded-full border-2 border-[#102A63] bg-[#F28BB5] px-3 py-2 text-sm font-semibold text-[#102A63] shadow-[2px_2px_0_#102A63]"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Frontend */}
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-black">
+                Frontend Development
+              </h3>
+
+              <div className="flex flex-wrap gap-2">
+                {["React", "TypeScript", "HTML", "CSS", "Tailwind CSS"].map(
+                  (skill) => (
+                    <span
+                      key={skill}
+                      className="rounded-full border-2 border-[#102A63] bg-[#8ED3DC] px-3 py-2 text-sm font-semibold text-[#102A63] shadow-[2px_2px_0_#102A63]"
+                    >
+                      {skill}
+                    </span>
+                  ),
+                )}
+              </div>
+            </div>
+
+            {/* Backend & Database */}
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-black">
+                Backend & Database
+              </h3>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "Node.js",
+                  "Express.js",
+                  "FastAPI",
+                  "MongoDB",
+                  "MySQL",
+                  "Firebase",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="rounded-full border-2 border-[#102A63] bg-[#F28BB5] px-3 py-2 text-sm font-semibold text-[#102A63] shadow-[2px_2px_0_#102A63]"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Cloud & AI */}
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-black">
+                Cloud & AI
+              </h3>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "AWS",
+                  "Azure",
+                  "Azure AI Search",
+                  "Azure OpenAI",
+                  "Azure SQL",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="rounded-full border-2 border-[#102A63] bg-[#8ED3DC] px-3 py-2 text-sm font-semibold text-[#102A63] shadow-[2px_2px_0_#102A63]"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Tools & Platforms */}
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-black">
+                Tools & Platforms
+              </h3>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  "Git",
+                  "GitHub",
+                  "Linux",
+                  "Docker",
+                  "Unity",
+                  "Power BI",
+                  "Tableau",
+                ].map((skill) => (
+                  <span
+                    key={skill}
+                    className="rounded-full border-2 border-[#102A63] bg-[#F28BB5] px-3 py-2 text-sm font-semibold text-[#102A63] shadow-[2px_2px_0_#102A63]"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -188,89 +467,152 @@ const About = () => {
       {/* WORK EXPERIENCE */}
       {/* ============================= */}
 
-      <section id="work-experience" className="px-6 py-12 md:px-10">
-        <div className="mx-auto grid max-w-4xl items-center gap-12 md:grid-cols-2">
-          {/* Illustration */}
-          <div className="flex justify-center">
-            <div className="flex h-64 w-64 items-center justify-center rounded-3xl border-2 border-[#102A63] bg-[#8ED3DC] text-7xl shadow-[5px_5px_0_#102A63]">
-              📖
+      <section id="work-experience" className="px-6 pt-12 pb-32 md:px-10">
+        <div className="mx-auto max-w-4xl">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            <span className="text-[#F28BB5]">~</span> Work Experience{" "}
+            <span className="blinking-dash"></span>
+          </h2>
+
+          <div className="mt-8 space-y-8">
+            {/* Freelancer Software Engineer */}
+            <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63]">
+              <div className="flex flex-col justify-between gap-2 md:flex-row">
+                <div>
+                  <h3 className="text-xl font-bold text-[#102A63]">
+                    Freelancer Software Engineer
+                  </h3>
+                  <p className="text-sm font-semibold">Outlier AI · Remote</p>
+                </div>
+
+                <p className="text-sm font-semibold">Jul 2025 – Present</p>
+              </div>
+
+              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
+                <li>
+                  Evaluated over{" "}
+                  <strong>100 AI-generated code responses</strong>
+                  for accuracy, identifying errors and recommending
+                  improvements.
+                </li>
+
+                <li>
+                  Developed an{" "}
+                  <strong>AI-powered Resume Matching System</strong>
+                  using a data processing and database pipeline.
+                </li>
+
+                <li>
+                  Used <strong>Python</strong> to extract and clean resume and
+                  job data, <strong>Azure Blob Storage</strong> to manage raw
+                  files, and <strong>PostgreSQL</strong> to store structured
+                  data.
+                </li>
+
+                <li>
+                  Used <strong>SQL</strong> to query structured data and
+                  generate resume-job matching and application metrics.
+                </li>
+              </ul>
             </div>
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold md:text-4xl">
-              <span className="text-[#F28BB5]">~</span> Work Experience
-              <span className="blinking-dash"></span>
-            </h2>
 
-            <p className="mt-6 text-sm leading-7">
-              I first discovered programming while studying computer science at
-              the University of North Texas. What started as curiosity gradually
-              became a passion for building software and solving problems.
-            </p>
+            {/* Undergraduate Research Assistant */}
+            <div className="rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63]">
+              <div className="flex flex-col justify-between gap-2 md:flex-row">
+                <div>
+                  <h3 className="text-xl font-bold text-[#102A63]">
+                    Undergraduate Research Assistant
+                  </h3>
 
-            <p className="mt-5 text-sm leading-7">
-              Through university projects and independent learning, I developed
-              an interest in creating applications that combine technology with
-              thoughtful user experiences.
-            </p>
+                  <p className="text-sm font-semibold">
+                    UNT Computer Science Department · Denton, Texas
+                  </p>
 
-            <p className="mt-5 text-sm leading-7">
-              Today, I'm continuing to grow as a software developer, focusing on
-              front-end development while expanding my knowledge of backend
-              systems, cloud technologies, and modern software engineering
-              practices.
-            </p>
-          </div>
-        </div>
-      </section>
+                  <p className="text-xs italic">
+                    Advisor: Wajdi Alemanni, Ph.D.
+                  </p>
+                </div>
 
-      {/* ============================= */}
-      {/* TECHNICAL SKILLS */}
-      {/* ============================= */}
+                <p className="text-sm font-semibold">Jun 2024 – Dec 2024</p>
+              </div>
 
-      <section
-        id="technical-skills"
-        className="px-6 py-12 md:px-10 min-h-screen"
-      >
-        <div className="mx-auto grid max-w-4xl items-center gap-12 md:grid-cols-2">
-          {/* Text */}
-          <div>
-            <h2 className="text-3xl font-bold md:text-4xl">
-              <span className="text-[#F28BB5]">~</span> Technical Skills{" "}
-              <span className="blinking-dash"></span>
-            </h2>
+              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
+                <li>
+                  Developed <strong>seven Unity Editor plugins</strong> in
+                  <strong> C/C++</strong> using object-oriented design
+                  principles to create modular and reusable accessibility tools.
+                </li>
 
-            <p className="mt-6 text-sm leading-7">
-              I first discovered programming while studying computer science at
-              the University of North Texas. What started as curiosity gradually
-              became a passion for building software and solving problems.
-            </p>
+                <li>
+                  Built tools for{" "}
+                  <strong>
+                    color contrast analysis, text enhancement, colorblind
+                    simulation, and blue-light filtering
+                  </strong>
+                  to improve accessibility for players with visual and cognitive
+                  impairments.
+                </li>
 
-            <p className="mt-5 text-sm leading-7">
-              Through university projects and independent learning, I developed
-              an interest in creating applications that combine technology with
-              thoughtful user experiences.
-            </p>
+                <li>
+                  Documented and tested plugin functionality to verify
+                  reliability and maintainability.
+                </li>
+              </ul>
+            </div>
 
-            <p className="mt-5 text-sm leading-7">
-              Today, I'm continuing to grow as a software developer, focusing on
-              front-end development while expanding my knowledge of backend
-              systems, cloud technologies, and modern software engineering
-              practices.
-            </p>
+            {/* Private Math Tutor */}
+            <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63]">
+              <div className="flex flex-col justify-between gap-2 md:flex-row">
+                <div>
+                  <h3 className="text-xl font-bold text-[#102A63]">
+                    Private Math Tutor
+                  </h3>
 
-            <Link
-              to="/projects"
-              className="mt-6 inline-block rounded-lg border-2 border-[#102A63] bg-[#8ED3DC] px-4 py-2 text-sm font-bold text-[#102A63] shadow-[2px_2px_0_#102A63] transition hover:bg-[#72cad6]"
-            >
-              View My Projects
-            </Link>
-          </div>
+                  <p className="text-sm font-semibold">Lynnwood, WA</p>
+                </div>
 
-          {/* Illustration */}
-          <div className="flex justify-center">
-            <div className="flex h-64 w-64 items-center justify-center rounded-3xl border-2 border-[#102A63] bg-[#8ED3DC] text-7xl shadow-[5px_5px_0_#102A63]">
-              📖
+                <p className="text-sm font-semibold">Feb 2021 – Jun 2023</p>
+              </div>
+
+              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
+                <li>
+                  Tutored students in <strong>Calculus I–IV</strong> through
+                  personalized one-on-one instruction.
+                </li>
+
+                <li>
+                  Helped improve a student's performance from
+                  <strong> 50% to over 90%</strong> through targeted practice
+                  and individualized learning strategies.
+                </li>
+              </ul>
+            </div>
+
+            {/* Marketing Outreach Specialist */}
+            <div className="rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63]">
+              <div className="flex flex-col justify-between gap-2 md:flex-row">
+                <div>
+                  <h3 className="text-xl font-bold text-[#102A63]">
+                    Marketing Outreach Specialist
+                  </h3>
+
+                  <p className="text-sm font-semibold">Edmonds College</p>
+                </div>
+
+                <p className="text-sm font-semibold">Sep 2020 – Jun 2021</p>
+              </div>
+
+              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
+                <li>
+                  Created marketing materials and promotional content for campus
+                  events and student outreach initiatives.
+                </li>
+
+                <li>
+                  Supported a Halloween event attended by
+                  <strong> 400+ students</strong>.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
