@@ -14,7 +14,6 @@ import { Link } from "react-router-dom";
 import UNTLogo from "../assets/unt_logo.png";
 import GgLogo from "../assets/google_logo.webp";
 import AWSLogo from "../assets/aws_logo.png";
-import GitHubSnake from "../assets/github-contribution-grid-snake.svg";
 
 const About = () => {
   const [showResume, setShowResume] = useState(false);
@@ -49,7 +48,8 @@ const About = () => {
         {/* Main About Content */}
         <div className="mx-auto mt-10 grid max-w-4xl items-center gap-10 md:grid-cols-2">
           {/* Profile Image */}
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center justify-center gap-3">
+            {/* Profile Image Container */}
             <div className="rounded-full border-2 border-[#102A63] bg-white p-1 shadow-[0_0_0_3px_#FFF8E8,0_0_0_5px_#102A63]">
               <img
                 src={profileImage}
@@ -57,6 +57,11 @@ const About = () => {
                 className="h-44 w-44 rounded-full object-cover md:h-52 md:w-52"
               />
             </div>
+            <p className="text-lg font-bold text-[#F28BB5]"> Hi, I'm Kim!👋</p>
+            {/* My Location */}
+            <p className="flex items-center gap-1 text-sm font-bold text-[#102A63] md:text-base">
+              <span>📍</span> Dallas, Texas
+            </p>
           </div>
 
           {/* About Text */}
@@ -94,7 +99,11 @@ const About = () => {
             </div>
             {/* Description */}
             <p className="text-sm leading-6">
-              My name is <strong>Kim Vo</strong> and I'm a{" "}
+              My name is{" "}
+              <strong>
+                <span className="text-[#F28BB5]">Kim Vo</span>
+              </strong>{" "}
+              and I'm a{" "}
               <strong> software developer and Computer Science graduate</strong>{" "}
               from the University of North Texas in May 2026 with a{" "}
               <strong>3.9 GPA</strong>.

@@ -2,11 +2,14 @@ import React from "react";
 
 const WorkExperience = () => {
   return (
-    <section id="work-experience" className="px-6 pt-12 pb-32 md:px-10">
+    <section
+      id="work-experience"
+      className="px-6 pt-12 pb-32 md:px-10 bg-[#fbeeda]"
+    >
       {" "}
       <div className="mx-auto max-w-4xl">
         {" "}
-        <h2 className="text-3xl font-bold md:text-4xl">
+        <h2 className="text-3xl font-bold md:text-4xl text-[#102A63]">
           {" "}
           <span className="text-[#F28BB5]">~</span> Work Experience{" "}
           <span className="blinking-dash"></span>{" "}

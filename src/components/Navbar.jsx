@@ -13,7 +13,6 @@ const navItems = [
     icon: BookOpen,
     color: "bg-[#FFF0A8]",
   },
-  { name: "Contact", href: "/contact", icon: Camera, color: "bg-[#FFAA8A]" },
 ];
 
 const Navbar = () => {
@@ -39,7 +38,7 @@ const Navbar = () => {
             >
               {/* Label */}
               {(isActive || isHovered) && (
-                <div className="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap text-sm font-medium font-mono text-[#182D68]">
+                <div className="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap text-medium font-medium font-mono text-[#182D68]">
                   {item.name}
                 </div>
               )}

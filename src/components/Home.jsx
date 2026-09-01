@@ -5,9 +5,8 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen w-full bg-[#fbeeda] px-6 py-12 text-[#102A63]"
+      className="min-h-screen w-full bg-[#fbeeda] px-6 pt-6 pb-28 text-[#102A63]"
     >
-      {" "}
       <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
         {/* Heading */}
         <h1 className="font-mono text-4xl font-bold tracking-tight md:text-5xl">
@@ -21,7 +20,7 @@ const Hero = () => {
         </div>
 
         {/* Subtitle / Bio */}
-        <p className="mx-auto max-w-xl text-base leading-relaxed text-[#102A63]/90 md:text-lg">
+        <p className="mx-auto max-w-xl text-base leading-relaxed text-[#102A63]/90 md:text-xl">
           I'm a <strong className="text-[#F28BB5]">software developer</strong>{" "}
           with experience in building modern, <strong>user-centered</strong> web
           applications.
@@ -31,16 +30,16 @@ const Hero = () => {
         {/* GITHUB CONTRIBUTIONS */}
         {/* ============================= */}
 
-        <section id="github-contributions" className="mt-20 w-full px-2 pb-24">
+        <div id="github-contributions" className="mt-6 w-full px-2">
           <div className="mx-auto max-w-4xl text-center">
             {/* Section Title */}
-            <h2 className="text-xl font-bold md:text-xl">
+            <h2 className="text-base md:text-lg">
               <span className="text-[#F28BB5]">~ Mr. Snake</span> is eating my
               GitHub's contribution. <span className="text-[#F28BB5]">~</span>
             </h2>
 
             {/* Snake Container */}
-            <div className="mt-8 flex justify-center overflow-hidden rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-4 shadow-[5px_5px_0_#102A63]">
+            <div className="mt-4 flex justify-center overflow-hidden rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-4 shadow-[5px_5px_0_#102A63]">
               <img
                 src={GitHubSnake}
                 alt="Kim Vo's GitHub contribution snake"
@@ -48,7 +47,7 @@ const Hero = () => {
               />
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </section>
   );
