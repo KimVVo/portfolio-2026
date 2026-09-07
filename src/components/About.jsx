@@ -125,7 +125,7 @@ const About = () => {
               software engineering and AI skills further.
             </p>
             <p className="mt-3 text-sm leading-6">
-              My motto is simple: <strong>Never stop learning.</strong>
+              <strong>TRY. FAIL. LEARN. </strong>
             </p>
             {/* Resume Modal Trigger Button */}
             <button
