@@ -481,160 +481,223 @@ const About = () => {
         </div>
       </section>
 
-      {/* ============================= */}
-      {/* WORK EXPERIENCE */}
-      {/* ============================= */}
+      {/* ====================================================== */}
+{/* WORK EXPERIENCE */}
+{/* ====================================================== */}
 
-      <section id="work-experience" className="px-6 pt-12 pb-32 md:px-10">
-        <div className="mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold md:text-4xl">
-            <span className="text-[#F28BB5]">~</span> Work Experience{" "}
-            <span className="blinking-dash"></span>
-          </h2>
+<section
+  id="work-experience"
+  className="border-t-2 border-[#102A63] bg-[#FFF8E8] px-6 py-20 pb-32 md:px-10"
+>
+  <div className="mx-auto max-w-5xl">
 
-          <div className="mt-8 space-y-8">
-            {/* Freelancer Software Engineer */}
-            <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63]">
-              <div className="flex flex-col justify-between gap-2 md:flex-row">
-                <div>
-                  <h3 className="text-xl font-bold text-[#102A63]">
-                    Freelancer Software Engineer
-                  </h3>
-                  <p className="text-sm font-semibold">Outlier AI · Remote</p>
-                </div>
+    {/* Section Header */}
+    <div>
+      <p className="mb-2 font-mono text-sm font-bold tracking-[0.3em] text-[#F28BB5]">
+        EXPERIENCE
+      </p>
 
-                <p className="text-sm font-semibold">Jul 2025 – Present</p>
-              </div>
+      <h2 className="text-3xl font-black md:text-4xl">
+        <span className="text-[#F28BB5]">~</span> Work Experience{" "}
+        <span className="blinking-dash"></span>
+      </h2>
+    </div>
 
-              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
-                <li>
-                  Evaluated over{" "}
-                  <strong>100 AI-generated code responses</strong>
-                  for accuracy, identifying errors and recommending
-                  improvements.
-                </li>
+    <div className="mt-10 space-y-6">
 
-                <li>
-                  Developed an{" "}
-                  <strong>AI-powered Resume Matching System</strong>
-                  using a data processing and database pipeline.
-                </li>
+   
+      {/* ================================================== */}
+      {/* RESEARCH ASSISTANT */}
+      {/* ================================================== */}
 
-                <li>
-                  Used <strong>Python</strong> to extract and clean resume and
-                  job data, <strong>Azure Blob Storage</strong> to manage raw
-                  files, and <strong>PostgreSQL</strong> to store structured
-                  data.
-                </li>
+      <div className="group rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63] transition-all duration-300 hover:-translate-y-1 hover:shadow-[8px_8px_0_#102A63] md:p-7">
 
-                <li>
-                  Used <strong>SQL</strong> to query structured data and
-                  generate resume-job matching and application metrics.
-                </li>
-              </ul>
-            </div>
+        <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
 
-            {/* Undergraduate Research Assistant */}
-            <div className="rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63]">
-              <div className="flex flex-col justify-between gap-2 md:flex-row">
-                <div>
-                  <h3 className="text-xl font-bold text-[#102A63]">
-                    Undergraduate Research Assistant
-                  </h3>
+          <div className="flex items-start gap-3">
+            <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg border-2 border-[#102A63] bg-white text-lg shadow-[2px_2px_0_#102A63]">
+              🔬
+            </span>
 
-                  <p className="text-sm font-semibold">
-                    UNT Computer Science Department · Denton, Texas
-                  </p>
+            <div>
+              <h3 className="text-xl font-black text-[#102A63]">
+                Undergraduate Research Assistant
+              </h3>
 
-                  <p className="text-xs italic">
-                    Advisor: Wajdi Alemanni, Ph.D.
-                  </p>
-                </div>
+              <p className="text-sm font-bold">
+                UNT Computer Science Department · Denton, Texas
+              </p>
 
-                <p className="text-sm font-semibold">Jun 2024 – Dec 2024</p>
-              </div>
-
-              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
-                <li>
-                  Developed <strong>seven Unity Editor plugins</strong> in
-                  <strong> C/C++</strong> using object-oriented design
-                  principles to create modular and reusable accessibility tools.
-                </li>
-
-                <li>
-                  Built tools for{" "}
-                  <strong>
-                    color contrast analysis, text enhancement, colorblind
-                    simulation, and blue-light filtering
-                  </strong>
-                  to improve accessibility for players with visual and cognitive
-                  impairments.
-                </li>
-
-                <li>
-                  Documented and tested plugin functionality to verify
-                  reliability and maintainability.
-                </li>
-              </ul>
-            </div>
-
-            {/* Private Math Tutor */}
-            <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63]">
-              <div className="flex flex-col justify-between gap-2 md:flex-row">
-                <div>
-                  <h3 className="text-xl font-bold text-[#102A63]">
-                    Private Math Tutor
-                  </h3>
-
-                  <p className="text-sm font-semibold">Lynnwood, WA</p>
-                </div>
-
-                <p className="text-sm font-semibold">Feb 2021 – Jun 2023</p>
-              </div>
-
-              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
-                <li>
-                  Tutored students in <strong>Calculus I–IV</strong> through
-                  personalized one-on-one instruction.
-                </li>
-
-                <li>
-                  Helped improve a student's performance from
-                  <strong> 50% to over 90%</strong> through targeted practice
-                  and individualized learning strategies.
-                </li>
-              </ul>
-            </div>
-
-            {/* Marketing Outreach Specialist */}
-            <div className="rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63]">
-              <div className="flex flex-col justify-between gap-2 md:flex-row">
-                <div>
-                  <h3 className="text-xl font-bold text-[#102A63]">
-                    Marketing Outreach Specialist
-                  </h3>
-
-                  <p className="text-sm font-semibold">Edmonds College</p>
-                </div>
-
-                <p className="text-sm font-semibold">Sep 2020 – Jun 2021</p>
-              </div>
-
-              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
-                <li>
-                  Created marketing materials and promotional content for campus
-                  events and student outreach initiatives.
-                </li>
-
-                <li>
-                  Supported a Halloween event attended by
-                  <strong> 400+ students</strong>.
-                </li>
-              </ul>
+              <p className="mt-1 text-xs italic">
+                Advisor: Wajdi Alemanni, Ph.D.
+              </p>
             </div>
           </div>
+
+          <span className="w-fit rounded-full border-2 border-[#102A63] bg-white px-3 py-1 text-xs font-black shadow-[2px_2px_0_#102A63]">
+            Jun 2024 – Dec 2024
+          </span>
+
         </div>
-      </section>
+
+        <div className="mt-5 flex flex-wrap gap-2">
+          {["C/C++", "Unity", "OOP", "Accessibility"].map((skill) => (
+            <span
+              key={skill}
+              className="rounded-full border-2 border-[#102A63] bg-white px-3 py-1 text-xs font-bold shadow-[2px_2px_0_#102A63]"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+
+        <ul className="mt-6 space-y-3 text-sm leading-6">
+          <li className="flex gap-3">
+            <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#8ED3DC] border border-[#102A63]" />
+            <span>
+              Developed <strong>7 Unity Editor plugins</strong> in C/C++ using
+              object-oriented design principles.
+            </span>
+          </li>
+
+          <li className="flex gap-3">
+            <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#8ED3DC] border border-[#102A63]" />
+            <span>
+              Built accessibility tools for{" "}
+              <strong>
+                color contrast, text enhancement, colorblind simulation,
+                and blue-light filtering
+              </strong>.
+            </span>
+          </li>
+
+          <li className="flex gap-3">
+            <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#8ED3DC] border border-[#102A63]" />
+            <span>
+              Tested and documented plugins to improve{" "}
+              <strong>reliability, usability, and maintainability</strong>.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+
+      {/* ================================================== */}
+      {/* PRIVATE MATH TUTOR */}
+      {/* ================================================== */}
+
+      <div className="group rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63] transition-all duration-300 hover:-translate-y-1 hover:shadow-[8px_8px_0_#102A63] md:p-7">
+
+        <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+
+          <div className="flex items-start gap-3">
+            <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg border-2 border-[#102A63] bg-white text-lg shadow-[2px_2px_0_#102A63]">
+              📐
+            </span>
+
+            <div>
+              <h3 className="text-xl font-black text-[#102A63]">
+                Private Math Tutor
+              </h3>
+
+              <p className="text-sm font-bold">
+                Lynnwood, WA
+              </p>
+            </div>
+          </div>
+
+          <span className="w-fit rounded-full border-2 border-[#102A63] bg-white px-3 py-1 text-xs font-black shadow-[2px_2px_0_#102A63]">
+            Feb 2021 – Jun 2023
+          </span>
+
+        </div>
+
+        <div className="mt-5 flex flex-wrap gap-2">
+          <span className="rounded-full border-2 border-[#102A63] bg-white px-3 py-1 text-xs font-bold shadow-[2px_2px_0_#102A63]">
+            Calculus I–IV
+          </span>
+
+          <span className="rounded-full border-2 border-[#102A63] bg-white px-3 py-1 text-xs font-bold shadow-[2px_2px_0_#102A63]">
+            1-on-1 Instruction
+          </span>
+        </div>
+
+        <ul className="mt-6 space-y-3 text-sm leading-6">
+          <li className="flex gap-3">
+            <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#F28BB5] border border-[#102A63]" />
+            <span>
+              Tutored students in <strong>Calculus I–IV</strong> through
+              personalized one-on-one instruction.
+            </span>
+          </li>
+
+          <li className="flex gap-3">
+            <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#F28BB5] border border-[#102A63]" />
+            <span>
+              Improved student performance from{" "}
+              <strong>50% to 90%+</strong> through targeted practice and
+              individualized learning strategies.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+
+      {/* ================================================== */}
+      {/* MARKETING OUTREACH */}
+      {/* ================================================== */}
+
+      <div className="group rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63] transition-all duration-300 hover:-translate-y-1 hover:shadow-[8px_8px_0_#102A63] md:p-7">
+
+        <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+
+          <div className="flex items-start gap-3">
+            <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg border-2 border-[#102A63] bg-white text-lg shadow-[2px_2px_0_#102A63]">
+              📣
+            </span>
+
+            <div>
+              <h3 className="text-xl font-black text-[#102A63]">
+                Marketing Outreach Specialist
+              </h3>
+
+              <p className="text-sm font-bold">
+                Edmonds College
+              </p>
+            </div>
+          </div>
+
+          <span className="w-fit rounded-full border-2 border-[#102A63] bg-white px-3 py-1 text-xs font-black shadow-[2px_2px_0_#102A63]">
+            Sep 2020 – Jun 2021
+          </span>
+
+        </div>
+
+        <ul className="mt-6 space-y-3 text-sm leading-6">
+          <li className="flex gap-3">
+            <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#8ED3DC] border border-[#102A63]" />
+            <span>
+              Created marketing materials and promotional content for campus
+              events and student outreach initiatives.
+            </span>
+          </li>
+
+          <li className="flex gap-3">
+            <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-[#8ED3DC] border border-[#102A63]" />
+            <span>
+              Supported a Halloween event attended by{" "}
+              <strong>400+ students</strong>.
+            </span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
 
       {/* ============================= */}
       {/* RESUME MODAL OVERLAY */}
