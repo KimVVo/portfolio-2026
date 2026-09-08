@@ -20,11 +20,10 @@ const Hero = () => {
         </div>
 
         {/* Subtitle / Bio */}
-        <p className="mx-auto max-w-2xl text-base leading-relaxed text-[#102A63]/90 md:text-xl">
-          I'm a <strong className="text-[#F28BB5]">software engineer</strong> crafting modern,{" "}
-          <strong>user-focused web applications</strong> and scalable{" "}
-          <strong className="text-[#F28BB5]">cloud solutions</strong>. Driven by curious engineering, 
-          clean code, and turning complex problems into seamless digital experiences.
+        <p className="mx-auto max-w-xl text-base leading-relaxed text-[#102A63]/90 md:text-xl">
+          <strong className="text-[#F28BB5]">Computer Science Graduate (UNT '26)</strong> | <strong>Software Engineer</strong>
+          <br />
+          Passionate about building modern, <strong>user-centered</strong> web applications and exploring new technologies.
         </p>
 
         {/* ============================= */}
