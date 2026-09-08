@@ -5,7 +5,7 @@ const experiences = [
   {
     title: "Lead Server",
     company: "Gyu-Kaku Japanese BBQ · Plano, TX",
-    date: "Jun 2021 – Jul 2026",
+    date: "Sep 2021 – Sep 2026",
     accent: "yellow",
     description: [
       <>
