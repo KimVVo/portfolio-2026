@@ -120,12 +120,11 @@ const About = () => {
               I’m a fast learner who enjoys continuously learning and
               challenging myself with new technologies. In May 2026, I earned my
               <strong> AWS Certified Solutions Architect – Associate </strong>
-              certification, building on my AWS knowledge and cloud skills. I’m
-              also building my own AI-powered web application to develop my
-              software engineering and AI skills further.
+              certification, building on my AWS knowledge and cloud skills. I'm currently building hands-on projects to apply cloud architecture, serverless patterns, and infrastructure design in real-world applications.
+              I've developed a full-stack analytics platform using TypeScript, React, Node.js, Python, and PostgreSQL, enabling users to analyze market data and visualize financial trends through interactive dashboards.
             </p>
             <p className="mt-3 text-sm leading-6">
-              <strong>TRY. FAIL. LEARN. </strong>
+              <strong>TRY. FAIL. LEARN. 💕</strong>
             </p>
             {/* Resume Modal Trigger Button */}
             <button
