@@ -98,63 +98,46 @@ const About = () => {
               </div>
             </div>
            {/* Description */}
-<div className="space-y-4 text-sm leading-relaxed text-[#102A63]">
-  {/* Intro Card */}
-  <div className="rounded-xl border-2 border-[#102A63] bg-white p-4 shadow-[3px_3px_0_#102A63]">
-    <p>
-      My name is{" "}
-      <strong className="rounded bg-[#F28BB5]/30 px-1 py-0.5 text-[#102A63]">
-        Kim Vo
-      </strong>{" "}
-      — a software developer and Computer Science graduate from the{" "}
-      <strong>University of North Texas</strong> (May 2026, Summa Cum Laude with a{" "}
-      <span className="font-mono font-bold text-[#F28BB5]">3.90 GPA</span>).
-    </p>
-  </div>
-
-  {/* Background & Skills */}
-  <p className="px-1">
-    Through academic work and my role as a{" "}
-    <strong>Research Assistant at UNT</strong>, I’ve built software solutions
-    for real-world problems using:
+{/* Description */}
+<div className="space-y-3 text-sm leading-6">
+  <p>
+    My name is{" "}
+    <strong>
+      <span className="text-[#F28BB5]">Kim Vo</span>
+    </strong>{" "}
+    and I'm a <strong>software developer and Computer Science graduate</strong>{" "}
+    from the University of North Texas in May 2026 with a <strong>3.9 GPA</strong>.
   </p>
-  
-  <div className="flex flex-wrap gap-1.5 font-mono text-xs font-bold">
-    {["Java", "Python", "JavaScript", "TypeScript", "React", "SQL", "AWS"].map(
-      (skill) => (
-        <span
-          key={skill}
-          className="rounded-md border border-[#102A63] bg-[#8ED3DC] px-2 py-1 text-[#102A63] shadow-[1.5px_1.5px_0_#102A63]"
-        >
-          {skill}
-        </span>
-      )
-    )}
-  </div>
 
-  {/* Cloud & Platform Highlights Box */}
-  <div className="rounded-xl border-2 border-[#102A63] bg-[#FFF8E8] p-4 shadow-[3px_3px_0_#102A63]">
-    <div className="mb-2 flex items-center gap-2">
-      <span className="rounded-full border border-[#102A63] bg-[#F28BB5] px-2 py-0.5 font-mono text-[10px] font-bold text-[#102A63]">
-        AWS CERTIFIED
-      </span>
-      <span className="text-xs font-bold text-[#102A63]">
-        Solutions Architect – Associate
-      </span>
-    </div>
+  <p>
+    Through academic projects and my experience as{" "}
+    <strong>a Research Assistant at UNT</strong>, I gained hands-on experience
+    building software and solving real-world problems. My technical skills include{" "}
+    <strong>Java, Python, JavaScript, React, SQL, and AWS</strong>.
+  </p>
 
-    <p className="text-xs text-[#102A63]">
-      I focus on cloud architecture, serverless patterns, and full-stack systems.
-      Recently engineered an AI-powered financial analytics platform using{" "}
-      <strong>TypeScript, React, Node.js, Python, and PostgreSQL</strong> to process market data and technical chart patterns in real time.
-    </p>
-  </div>
+  <p>
+    🌱 <strong>Cloud & Infrastructure:</strong> Earned my{" "}
+    <strong>AWS Certified Solutions Architect – Associate</strong> certification in May 2026.
+    I'm currently building hands-on projects to apply cloud architecture, serverless patterns,
+    and infrastructure design in real-world applications.
+  </p>
 
-  {/* Motto Banner */}
-  <div className="flex items-center justify-between rounded-lg border-2 border-[#102A63] bg-[#F28BB5] px-4 py-2 font-mono text-xs font-black tracking-wider text-[#102A63] shadow-[2px_2px_0_#102A63]">
-    <span>TRY. FAIL. LEARN.</span>
-    <span>💕</span>
-  </div>
+  <p>
+    🔭 <strong>Current Focus:</strong> Full-stack web application development and AI-driven platforms.
+  </p>
+
+  <p>
+    🚀 <strong>Featured Project — 🕹️ Fin-Sight Pattern AI:</strong> Developed a full-stack analytics
+    platform using <strong>TypeScript, React, Node.js, Python, and PostgreSQL</strong> to enable
+    users to analyze market data and visualize financial trends. Engineered an AI pipeline combining
+    computer vision and machine learning to detect <strong>4+ candlestick patterns</strong> and generate
+    real-time technical-analysis signals.
+  </p>
+
+  <p>
+    <strong>TRY. FAIL. LEARN. 💕</strong>
+  </p>
 </div>
             {/* Resume Modal Trigger Button */}
             <button
