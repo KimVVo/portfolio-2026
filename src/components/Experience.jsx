@@ -1,89 +1,82 @@
 import React from "react";
 
 const experiences = [
+ 
   {
-    title: "Freelancer Software Engineer",
-    company: "Outlier AI · Remote",
-    date: "Jul 2025 – Present",
-    accent: "teal",
+    title: "Lead Server",
+    company: "Gyu-Kaku Japanese BBQ · Plano, TX",
+    date: "Jun 2021 – Jul 2026",
+    accent: "yellow",
     description: [
       <>
-        Evaluated over <strong>100 AI-generated code responses</strong> for
-        accuracy, identifying errors and recommending improvements.
+        Managed high-volume dining operations for <strong>200+ guests</strong>{" "}
+        per night, assisting front-of-house staff to accelerate table turnover
+        and ensure fast service.
       </>,
       <>
-        Developed an <strong>AI-powered Resume Matching System</strong> using a
-        data processing and database pipeline.
-      </>,
-      <>
-        Used <strong>Python</strong> to extract and clean resume and job data,
-        <strong> Azure Blob Storage</strong> to manage raw files, and{" "}
-        <strong>PostgreSQL</strong> to store structured data.
-      </>,
-      <>
-        Used <strong>SQL</strong> to query structured data and generate
-        resume-job matching and application metrics.
+        Recognized as <strong>Employee of the Year</strong> for leadership,
+        operational excellence, and consistent guest satisfaction.
       </>,
     ],
   },
 
   {
     title: "Undergraduate Research Assistant",
-    company: "UNT Computer Science Department · Denton, Texas",
-    advisor: "Advisor: Wajdi Alemanni, Ph.D.",
+    company: "UNT Computer Science Department · Denton, TX",
+    advisor: "Advisor: Wajdi Aljedaani, Ph.D.",
     date: "Jun 2024 – Dec 2024",
     accent: "pink",
     description: [
       <>
-        Developed <strong>seven Unity Editor plugins</strong> in{" "}
-        <strong>C/C++</strong> using object-oriented design principles to create
-        modular and reusable accessibility tools.
+        Developed <strong>7 Unity Editor plugins</strong> in{" "}
+        <strong>C#</strong> using Object-Oriented Programming (OOP) to improve
+        game accessibility for users with visual impairments and
+        photosensitivity.
       </>,
       <>
-        Built tools for{" "}
-        <strong>
-          color contrast analysis, text enhancement, colorblind simulation, and
-          blue-light filtering
-        </strong>{" "}
-        to improve accessibility.
+        Built tools including <strong>colorblind simulation</strong>,{" "}
+        <strong>text-to-speech</strong>, and a{" "}
+        <strong>language generator</strong> to create inclusive digital
+        environments.
       </>,
       <>
-        Documented and tested plugin functionality to verify reliability and
-        maintainability.
+        Performed unit testing to resolve runtime exceptions by{" "}
+        <strong>60%</strong> and improve plugin reliability, usability, and
+        integration across Unity projects.
       </>,
     ],
   },
 
   {
-    title: "Private Math Tutor",
-    company: "Lynnwood, WA",
-    date: "Feb 2021 – Jun 2023",
-    accent: "yellow",
+    title: "Math Tutor",
+    company: "Independent · Dallas, TX / Lynnwood, WA",
+    date: "Jun 2021 – Jul 2023",
+    accent: "teal",
     description: [
       <>
-        Tutored students in <strong>Calculus I–IV</strong> through personalized
-        one-on-one instruction.
+        Mentored students one-on-one in <strong>Pre-Calculus</strong> and{" "}
+        <strong>Calculus I–IV</strong> through personalized learning strategies.
       </>,
       <>
-        Helped improve a student's performance from{" "}
-        <strong>50% to over 90%</strong> through targeted practice and
-        individualized learning strategies.
+        Helped improve students' performance from <strong>50% to over 90%</strong>{" "}
+        through targeted practice and concept reinforcement.
       </>,
     ],
   },
 
   {
     title: "Marketing Outreach Specialist",
-    company: "Edmonds College",
+    company: "Edmonds College · Lynnwood, WA",
     date: "Sep 2020 – Jun 2021",
-    accent: "teal",
+    accent: "yellow",
     description: [
       <>
-        Created marketing materials and promotional content for campus events
-        and student outreach initiatives.
+        Designed and distributed college marketing materials and promotional content
+        across campus, boosting student participation by <strong>80%</strong>.
       </>,
       <>
-        Supported a Halloween event attended by <strong>400+ students</strong>.
+        Supported campus initiatives and events, including a Halloween event
+        attended by <strong>400+ students</strong>.
       </>,
     ],
   },
