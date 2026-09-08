@@ -97,8 +97,7 @@ const About = () => {
                 </a>
               </div>
             </div>
-            {/* Description */}
-            {/* Description */}
+           {/* Description */}
 <div className="space-y-4 text-sm leading-relaxed text-[#102A63]">
   {/* Intro Card */}
   <div className="rounded-xl border-2 border-[#102A63] bg-white p-4 shadow-[3px_3px_0_#102A63]">
