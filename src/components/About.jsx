@@ -117,18 +117,15 @@ const About = () => {
   </p>
 
   <p>
-    🌱 <strong>Cloud & Infrastructure:</strong> Earned my{" "}
+    🌱 <strong>I recently earned {" "}
     <strong>AWS Certified Solutions Architect – Associate</strong> certification in May 2026.
-    I'm currently building hands-on projects to apply cloud architecture, serverless patterns,
+    Now, I'm building hands-on projects to apply cloud architecture, serverless patterns,
     and infrastructure design in real-world applications.
   </p>
 
-  <p>
-    🔭 <strong>Current Focus:</strong> Full-stack web application development and AI-driven platforms.
-  </p>
 
   <p>
-    🚀 <strong>Featured Project — 🕹️ Fin-Sight Pattern AI:</strong> Developed a full-stack analytics
+    🚀 <strong>Current Project — 🕹️ Fin-Sight Pattern AI:</strong> Developed a full-stack analytics
     platform using <strong>TypeScript, React, Node.js, Python, and PostgreSQL</strong> to enable
     users to analyze market data and visualize financial trends. Engineered an AI pipeline combining
     computer vision and machine learning to detect <strong>4+ candlestick patterns</strong> and generate
