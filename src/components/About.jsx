@@ -561,43 +561,7 @@ const About = () => {
 
           <div className="mt-8 space-y-8">
 
-             {/* Lead Server */}
-            <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63] transition duration-200 hover:-translate-y-1 hover:shadow-[7px_7px_0_#102A63]">
-
-              <div className="flex flex-col justify-between gap-2 md:flex-row">
-
-                <div>
-                  <h3 className="text-xl font-bold text-[#102A63]">
-                    Lead Server
-                  </h3>
-
-                  <p className="text-sm font-semibold">
-                    Gyu-Kaku Japanese BBQ · Plano, Texas
-                  </p>
-                </div>
-
-                <p className="text-sm font-semibold">
-                  Sep 2021 – Sep 2026
-                </p>
-
-              </div>
-
-              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
-
-                <li>
-                  Coordinated front-of-house operations for{" "}
-                  <strong>200+ guests per night</strong>, helping improve
-                  service speed and table turnover.
-                </li>
-
-                <li>
-                  Recognized as <strong>Employee of the Year</strong> for
-                  leadership, operational excellence, and customer service.
-                </li>
-
-              </ul>
-            </div>
-
+             
 
             {/* Undergraduate Research Assistant */}
             <div className="rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63] transition duration-200 hover:-translate-y-1 hover:shadow-[7px_7px_0_#102A63]">
@@ -664,6 +628,42 @@ const About = () => {
               </ul>
             </div>
 
+{/* Lead Server */}
+            <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63] transition duration-200 hover:-translate-y-1 hover:shadow-[7px_7px_0_#102A63]">
+
+              <div className="flex flex-col justify-between gap-2 md:flex-row">
+
+                <div>
+                  <h3 className="text-xl font-bold text-[#102A63]">
+                    Lead Server
+                  </h3>
+
+                  <p className="text-sm font-semibold">
+                    Gyu-Kaku Japanese BBQ · Plano, Texas
+                  </p>
+                </div>
+
+                <p className="text-sm font-semibold">
+                  Sep 2021 – Sep 2026
+                </p>
+
+              </div>
+
+              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
+
+                <li>
+                  Coordinated front-of-house operations for{" "}
+                  <strong>200+ guests per night</strong>, helping improve
+                  service speed and table turnover.
+                </li>
+
+                <li>
+                  Recognized as <strong>Employee of the Year</strong> for
+                  leadership, operational excellence, and customer service.
+                </li>
+
+              </ul>
+            </div>
 
            
 
