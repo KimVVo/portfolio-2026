@@ -117,7 +117,7 @@ const About = () => {
   </p>
 
   <p>
-    🌱 <strong>I recently earned {" "}
+    🌱 I recently earned {" "}
     <strong>AWS Certified Solutions Architect – Associate</strong> certification in May 2026.
     Now, I'm building hands-on projects to apply cloud architecture, serverless patterns,
     and infrastructure design in real-world applications.
