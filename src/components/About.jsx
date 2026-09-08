@@ -561,63 +561,38 @@ const About = () => {
 
           <div className="mt-8 space-y-8">
 
-            {/* Software Engineer — Outlier AI */}
+             {/* Lead Server */}
             <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63] transition duration-200 hover:-translate-y-1 hover:shadow-[7px_7px_0_#102A63]">
 
               <div className="flex flex-col justify-between gap-2 md:flex-row">
 
                 <div>
                   <h3 className="text-xl font-bold text-[#102A63]">
-                    Software Engineer
+                    Lead Server
                   </h3>
 
                   <p className="text-sm font-semibold">
-                    Outlier AI · Remote
+                    Gyu-Kaku Japanese BBQ · Plano, Texas
                   </p>
                 </div>
 
                 <p className="text-sm font-semibold">
-                  Jul 2025 – Present
+                  Sep 2021 – Sep 2026
                 </p>
 
-              </div>
-
-              <div className="mt-3 flex flex-wrap gap-2">
-                {[
-                  "Python",
-                  "Azure",
-                  "PostgreSQL",
-                  "SQL",
-                  "AI/ML",
-                ].map((skill) => (
-                  <span
-                    key={skill}
-                    className="rounded-full border-2 border-[#102A63] bg-white px-2.5 py-1 text-xs font-bold text-[#102A63]"
-                  >
-                    {skill}
-                  </span>
-                ))}
               </div>
 
               <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
 
                 <li>
-                  Evaluated <strong>100+ AI-generated code responses</strong>{" "}
-                  for correctness, identifying technical issues and recommending
-                  improvements.
+                  Coordinated front-of-house operations for{" "}
+                  <strong>200+ guests per night</strong>, helping improve
+                  service speed and table turnover.
                 </li>
 
                 <li>
-                  Developed an{" "}
-                  <strong>AI-powered Resume Matching System</strong> using
-                  Python, Azure Blob Storage, PostgreSQL, and SQL to process
-                  and match resumes with job descriptions.
-                </li>
-
-                <li>
-                  Built data-processing pipelines to extract, clean, store,
-                  and analyze resume and job data for matching and application
-                  insights.
+                  Recognized as <strong>Employee of the Year</strong> for
+                  leadership, operational excellence, and customer service.
                 </li>
 
               </ul>
@@ -690,43 +665,7 @@ const About = () => {
             </div>
 
 
-            {/* Lead Server */}
-            <div className="rounded-2xl border-2 border-[#102A63] bg-[#8ED3DC] p-6 shadow-[5px_5px_0_#102A63] transition duration-200 hover:-translate-y-1 hover:shadow-[7px_7px_0_#102A63]">
-
-              <div className="flex flex-col justify-between gap-2 md:flex-row">
-
-                <div>
-                  <h3 className="text-xl font-bold text-[#102A63]">
-                    Lead Server
-                  </h3>
-
-                  <p className="text-sm font-semibold">
-                    Gyu-Kaku Japanese BBQ · Plano, Texas
-                  </p>
-                </div>
-
-                <p className="text-sm font-semibold">
-                  Feb 2021 – Jun 2023
-                </p>
-
-              </div>
-
-              <ul className="mt-5 list-disc space-y-2 pl-5 text-sm leading-6">
-
-                <li>
-                  Coordinated front-of-house operations for{" "}
-                  <strong>200+ guests per night</strong>, helping improve
-                  service speed and table turnover.
-                </li>
-
-                <li>
-                  Recognized as <strong>Employee of the Year</strong> for
-                  leadership, operational excellence, and customer service.
-                </li>
-
-              </ul>
-            </div>
-
+           
 
             {/* Private Math Tutor */}
             <div className="rounded-2xl border-2 border-[#102A63] bg-[#F28BB5] p-6 shadow-[5px_5px_0_#102A63] transition duration-200 hover:-translate-y-1 hover:shadow-[7px_7px_0_#102A63]">
@@ -870,4 +809,5 @@ const About = () => {
 };
 
 export default About;
+
 
