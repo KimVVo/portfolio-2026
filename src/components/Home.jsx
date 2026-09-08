@@ -20,10 +20,11 @@ const Hero = () => {
         </div>
 
         {/* Subtitle / Bio */}
-        <p className="mx-auto max-w-xl text-base leading-relaxed text-[#102A63]/90 md:text-xl">
-          I'm a <strong className="text-[#F28BB5]">software developer</strong>{" "}
-          with experience in building modern, <strong>user-centered</strong> web
-          applications.
+        <p className="mx-auto max-w-2xl text-base leading-relaxed text-[#102A63]/90 md:text-xl">
+          I'm a <strong className="text-[#F28BB5]">software engineer</strong> crafting modern,{" "}
+          <strong>user-focused web applications</strong> and scalable{" "}
+          <strong className="text-[#F28BB5]">cloud solutions</strong>. Driven by curious engineering, 
+          clean code, and turning complex problems into seamless digital experiences.
         </p>
 
         {/* ============================= */}
@@ -35,7 +36,7 @@ const Hero = () => {
             {/* Section Title */}
             <h2 className="text-base md:text-lg">
               <span className="text-[#F28BB5]">~ Mr. Snake</span> is eating my
-              GitHub's contribution. <span className="text-[#F28BB5]">~</span>
+              GitHub contribution. <span className="text-[#F28BB5]">~</span>
             </h2>
 
             {/* Snake Container */}
